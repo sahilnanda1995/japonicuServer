@@ -1,5 +1,5 @@
-gekkoPath = '$HOME/gekko'
-configFilename = 'example-config.js'
+gekkoPath = '$HOME/Dev/gekko'
+configFilename = 'config.js'
 log_name = 'evolution_gen.csv'
 
 # Hosts list of remote machines running gekko, to distribute evaluation load;
