@@ -118,8 +118,11 @@ def showResults(World):
             TOMLSettings = TOMLutils.parametersToTOML(
                 FinalIndividueSettings)
             World.logger.log(TOMLSettings)
-            currentSessionBreakResults.append((backtestResult['relativeProfit'],
+            try:
+            		currentSessionBreakResults.append((backtestResult['relativeProfit'],
                                                TOMLSettings))
+            except:
+            		pass		
             paramsFilename = "%s-EPOCH%i" % (LOCALE.name,
                                              LOCALE.EPOCH)
             World.logger.saveParameters(paramsFilename, TOMLSettings)
