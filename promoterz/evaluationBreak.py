@@ -121,7 +121,8 @@ def showResults(World):
             try:
             		currentSessionBreakResults.append((backtestResult['relativeProfit'],
                                                TOMLSettings))
-            except:
+            except Exception as e:
+            		World.logger.log(e)
             		pass		
             paramsFilename = "%s-EPOCH%i" % (LOCALE.name,
                                              LOCALE.EPOCH)
