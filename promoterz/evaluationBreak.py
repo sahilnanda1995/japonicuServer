@@ -122,7 +122,6 @@ def showResults(World):
                                                TOMLSettings))
             except Exception as e:
             		print (e)
-            		World.logger.updateFile("Error: " % e)
             		pass		
             paramsFilename = "%s-EPOCH%i" % (LOCALE.name,
                                              LOCALE.EPOCH)
