@@ -4,7 +4,7 @@ NBBESTINDS = 1
 NBADDITIONALINDS = 4
 
 # show current best settings on every X epochs. (or False)
-evaluateSettingsPeriodically = 5
+evaluateSettingsPeriodically = 2
 
 # number of evaluations on evaluation break. for each selected individue on locales;
 proofSize = 12
