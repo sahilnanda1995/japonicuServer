@@ -11,7 +11,7 @@ from . import TOMLutils
 
 from japonicus.interface import showBacktestResult
 
-
+errorCount=0
 def showResults(World):
     validationDatasets = []
     # IS EVALUATION DATASET LOADED? USE IT;
@@ -122,6 +122,8 @@ def showResults(World):
             		currentSessionBreakResults.append((backtestResult['relativeProfit'],
                                                TOMLSettings))
             except Exception as e:
+            		count+=1
+            		print(count)
             		print (e)
             		pass		
             paramsFilename = "%s-EPOCH%i" % (LOCALE.name,
