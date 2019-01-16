@@ -10,7 +10,7 @@ parameter_spread  = 60
 POP_SIZE = 50
 
 # number of epochs to run
-NBEPOCH = 800
+NBEPOCH = 10
 
 # number of locales on parallel GA;
 NBLOCALE = 3
