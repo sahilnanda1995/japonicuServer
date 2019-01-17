@@ -1,4 +1,4 @@
-gekkoPath = '$HOME/Dev/gekko'
+gekkoPath = '$HOME/Dev/martin-gekko/gekko'
 configFilename = 'config.js'
 log_name = 'evolution_gen.csv'
 
